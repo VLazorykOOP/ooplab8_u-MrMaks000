@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="ArraySearch.cpp" />
+    <ClCompile Include="ArraySorting.cpp" />
     <ClCompile Include="example.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="OOPLab8T.cpp" />
+    <ClCompile Include="Tasks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="example.h" />
+    <ClInclude Include="Tasks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
